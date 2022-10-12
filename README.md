@@ -1,11 +1,11 @@
 # CSV-Combiner
-Command line python program that takes several CSV files as arguments. Each CSV file must have the same columns. Outputs new CSV file to `stdout` with an additional column denoting the name of the file
+Command line python program that takes several CSV files as arguments. Each CSV file must have the same columns. Outputs new CSV file to `stdout` with an additional column denoting the name of the file.
 
 ```
 $ python3 csv-combiner.py accessories.csv clothing.csv > combined.csv
 ```
 
-Given two input files named `clothing.csv` and `accessories.csv`.
+Given two input files named `clothing.csv` and `accessories.csv`:
 
 *clothing.csv*
 |email_hash|category|
